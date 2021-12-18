@@ -9,19 +9,43 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-.navbar ul{
+.homebutton ul{
     font-family: 'Open Sans', sans-serif;
     color: whitesmoke;
     text-decoration: none;
     background-color: rgb(68, 66, 66);
     font-size: 20px;
-    height: 2.5em;
+    padding-left: 1vh;
+    float: left;
+    height: 7vh;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+}
+.homebutton li{
+    display: inline;
+}
+.homebutton a{
+    color: inherit;
+    text-decoration: none;
+}
+.homebutton a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.navbar ul{
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: rgb(68, 66, 66);
+    font-size: 17px;
+    padding-right: 1vh;
+    height: 7vh;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
+    justify-content:flex-end;
+    align-items:center;
     gap: 2vh;
-    
 }
 
 .navbar li{
@@ -33,5 +57,4 @@ body{
 }
 .navbar a:hover{
     color: rgb(0, 0, 0);
-    margin-left: 0;
 }
