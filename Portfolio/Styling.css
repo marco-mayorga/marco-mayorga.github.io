@@ -1,8 +1,10 @@
+/*Makes it so there isn't a white border on the whole page*/
 * { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* Inserts and makes picture responsive */
 body{
     background-image: url(background.jpg);
     background-repeat: no-repeat;
@@ -15,9 +17,10 @@ body{
     text-decoration: none;
     background-color: rgb(68, 66, 66);
     font-size: 20px;
-    padding-left: 1vh;
+    padding-left: 1rem;
+/*This puts divs besides eachother*/
     float: left;
-    height: 7vh;
+    height: 3.5rem;
     display: flex;
     flex-direction:row;
     align-items:center;
@@ -39,13 +42,13 @@ body{
     text-decoration: none;
     background-color: rgb(68, 66, 66);
     font-size: 17px;
-    padding-right: 1vh;
-    height: 7vh;
+    padding-right: 1.5rem;
+    height: 3.5rem;
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
     align-items:center;
-    gap: 2vh;
+    gap: 1.25rem;
 }
 
 .navbar li{
