@@ -41,19 +41,31 @@ body {
     margin-top: 40vh;
     font-size: 2rem;
 }
-.links_under_name ul {
+.links_under_center ul {
   list-style: none;
   font-family: "IBM Plex Mono", monospace;
   font-size: 1.3rem;
   display: flex;
   justify-content: center;
-  margin-top: 2vh;
+  margin-top: 2.4vh;
   gap: 5rem;
 }
-.links_under_name a {
+.links_under_center a {
   text-decoration: none;
   color: #292929;
 }
-.links_under_name a:hover {
+.links_under_center a:hover {
     color: #007e8f;
+}
+
+.icons ul{
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+.icons a{
+  text-decoration: none;
+
 }
