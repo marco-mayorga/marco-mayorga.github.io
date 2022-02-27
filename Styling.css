@@ -37,18 +37,17 @@ body {
     color: #292929;
     font-family: "IBM Plex Mono", monospace;
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 40vh;
+    flex-direction: column;
     font-size: 2rem;
+    height: calc(100vh - 5rem);
 }
 .links_under_center ul {
   list-style: none;
   font-family: "IBM Plex Mono", monospace;
   font-size: 1.3rem;
   display: flex;
-  justify-content: center;
-  margin-top: 2.4vh;
-  gap: 5rem;
 }
 .links_under_center a {
   text-decoration: none;
@@ -60,7 +59,6 @@ body {
 
 .icons ul{
   list-style: none;
-  margin-top: 1rem;
   display: flex;
   justify-content: center;
   gap: 6rem;
@@ -69,17 +67,30 @@ body {
   text-decoration: none;
 
 }
-/* FInish adjusting map height and width*/
-.foliumMap{
-  width: 100%;
-  height: .5vh;
+.centerProjects{
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid gray; */
+  margin: 5vh 0vh 5vh 0vh;
+  gap: 5vh;
+}
+.projectSummary{
+  font-family: "IBM Plex Mono", monospace;
+  
+}
+.projectSummary #h1{
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.projectSummary #p{
+
+}
+.foliumMap iframe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-content: center;
-  color: #007e8f;
-  position: relative;
-  width: 100.0%;
-  height: 100.0%;
-  left: 0.0%;
-  top: 0.0%;
+  width: 75vw;
+  height: 80vh;
 }
