@@ -46,7 +46,7 @@ body {
 .links_under_center ul {
   list-style: none;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 1.3rem;
+  font-size: 2rem;
   display: flex;
 }
 .links_under_center a {
