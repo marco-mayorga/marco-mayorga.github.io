@@ -46,8 +46,9 @@ body {
 .links_under_center ul {
   list-style: none;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 2rem;
   display: flex;
+  font-weight: 600;
+  gap: 6rem;
 }
 .links_under_center a {
   text-decoration: none;
@@ -55,17 +56,6 @@ body {
 }
 .links_under_center a:hover {
     color: #007e8f;
-}
-
-.icons ul{
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 6rem;
-}
-.icons a{
-  text-decoration: none;
-
 }
 .centerProjects{
   display: flex;
@@ -83,9 +73,9 @@ body {
   font-weight: bolder;
   font-size: 1rem;
 }
-.projectSummary #p{
+/*.projectSummary #p{
 
-}
+}*/
 .foliumMap iframe{
   display: flex;
   flex-direction: column;
