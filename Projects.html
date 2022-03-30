@@ -34,7 +34,8 @@
     <div class="centerProjects">
       <div class="projectSummary">
         <h1>Covid Statistic Map</h1>
-        <!-- <p>Finish Describing Project</p> -->
+        <p>This is a US based covid tracker written in python using folium, pandas and regex. Folium is a python package that uses the leaflet.js
+          library to make maps. I also used the pandas package to sort, merge and clean json datasets provided by the "Covid Act Now" Api. This was necessary for folium to run correctly. A live implementation is on my website. Since it is a static site hosted by GitHub pages, I use a bash script to run the covid tracker. The bash script also moves the map.html file generated and appends it to my website. Finally I use a cronjob to run the bash file at midnight everynight.</p>
       </div>
       <div class="foliumMap">
         <iframe src="map.html" title="Folium Covid map"  frameBorder="0">
