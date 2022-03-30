@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Styling.css" />
+    <link rel="stylesheet" href="Styles.css">
+    <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,16 +16,21 @@
   </head>
   <body>
     <div class="backgroundColor"></div>
-    <div class="navbar">
-      <ul class="homebutton">
-        <li><a href="index.html">Home</a></li>
-      </ul>
-      <ul class="info">
-        <li><a href="ContactMe.html">Contact Me</a></li>
-        <li><a href="Projects.html">Projects</a></li>
-        <li><a href="https://drive.google.com/file/d/1a0v3dKLXLOoVoCGedpBGlCstx4frLGvh0HqvH1EYrIs/view" target="_blank">Resume</a></li>
-      </ul>
-    </div>
+    <nav class="navbar">
+      <div class="homeButton"> <a href="index.html">Home</a> </div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="ContactMe.html">Contact Me</a></li>
+          <li><a href="Projects.html">Projects</a></li>
+          <li><a href="https://drive.google.com/file/d/1a0v3dKLXLOoVoCGedpBGlCstx4frLGvh0HqvH1EYrIs/view" target="_blank">Resume</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="centerpage">
       <h1>Contact Me</h1>
       <div class="links_under_center">
