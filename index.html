@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="Styles.css" />
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,35 +15,98 @@
     <title>Marco Mayorga - Portfolio</title>
   </head>
   <body>
-    <div class="backgroundColor"></div>
     <nav class="navbar">
-      <div class="homeButton"> <a href="index.html">Home</a> </div>
       <a href="#" class="toggle-button">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
       </a>
+      <div class="logo">Marco Mayorga</div>
       <div class="navbar-links">
         <ul>
-          <li><a href="ContactMe.html">Contact Me</a></li>
-          <li><a href="Projects.html">Projects</a></li>
-          <li><a href="https://drive.google.com/file/d/1a0v3dKLXLOoVoCGedpBGlCstx4frLGvh0HqvH1EYrIs/view" target="_blank">Resume</a></li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1a0v3dKLXLOoVoCGedpBGlCstx4frLGvh0HqvH1EYrIs/view"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
     <div class="centerpage">
-      <h1>Marco Mayorga</h1>
-      <div class="links_under_center">
+      <p>Hi!</p>
+      <h1>I'm, Marco.</h1>
+      <p>Software Engineer!</p>
+      <div class="links-under-text">
         <ul>
           <li>
             <a href="https://github.com/marco-mayorga" target="_blank">
-              <p>Github</p>
+              Github
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/marco-mayorga/" target="_blank">
-              <p>Linkedin</p>
+            <a href="https://www.linkedin.com/in/marco-mayorga/" target="_blank"
+              >Linkedin
             </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="centerProjects">
+      <div class="foliumMap">
+        <div class="projectSummary">
+          <h1>Covid Statistic Map</h1>
+          <p>
+            This is a US based covid tracker written in python using folium,
+            pandas and regex. Folium is a python package that uses the
+            leaflet.js library to make maps. I also used the pandas package to
+            sort, merge and clean json datasets provided by the "Covid Act Now"
+            Api. This was necessary for folium to run correctly. A live
+            implementation is on my website. Since it is a static site hosted by
+            GitHub pages, I use a bash script to run the covid tracker. The bash
+            script also moves the map.html file generated and appends it to my
+            website. Finally I use a cronjob to run the bash file at midnight
+            every night.
+          </p>
+          <ul>
+            <li>
+              <a href="https://github.com/marco-mayorga" target="_blank">
+                Github
+              </a>
+            </li>
+          </ul>
+        </div>
+        <iframe src="map.html" title="Folium Covid map" frameborder="0">
+          <p>Your browser does not support iframes.</p>
+        </iframe>
+      </div>
+    </div>
+    <div class="centerpage">
+      <h1>Say Hello!</h1>
+      <div class="links-under-text">
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/marco-mayorga/"
+              target="_blank"
+            >
+              Linkedin
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:marco.mayorga.2022@gmail.com?subject=Mail from your website"
+              >Email</a
+            >
+          </li>
+          <li>
+            <a href="https://twitter.com/MarcoMa12031980" target="_blank"
+              >Twitter</a
+            >
           </li>
         </ul>
       </div>
